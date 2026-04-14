@@ -1,0 +1,9 @@
+digraph SciGetc {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,162,16"];
+	Node1 [label=SciGetc, height="0.22", width="0.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="31,8", rects="8,0,54,16"];
+	Node2 [label=SciInStatus, height="0.22", width="0.86", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#gacb386815d859e76c9b4867e4141606ac", tooltip="Check, if a character has been received, i.e. if the receive buffer is full. Call first...", pos="122,8", rects="91,0,154,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,90,8 54,8 62,8 71,8 80,8"];
+}

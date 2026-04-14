@@ -1,0 +1,9 @@
+digraph SciInit {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,146,16"];
+	Node1 [label=SciInit, height="0.22", width="0.56", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="28,8", rects="8,0,48,16"];
+	Node2 [label=SciInitEx, height="0.22", width="0.75", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#ga9281a746eb3ad36593872b0f305a2478", tooltip="Initialize serial interface. Must be called before using any of the other Sci...() functions...", pos="111,8", rects="84,0,138,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,84,8 48,8 56,8 65,8 74,8"];
+}

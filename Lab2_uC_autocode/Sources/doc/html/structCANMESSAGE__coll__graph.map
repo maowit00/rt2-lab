@@ -1,0 +1,6 @@
+digraph CANMESSAGE {
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,92,88"];
+	Node1 [label="{CANMESSAGE\n|+ CanId\l+ DataLength\l+ Data\l|}", height="1.00", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="46,44", rects="0,64,93,80 0,24,93,64 0,8,93,24"];
+}

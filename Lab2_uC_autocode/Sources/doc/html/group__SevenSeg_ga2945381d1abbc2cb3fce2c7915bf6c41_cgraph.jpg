@@ -1,0 +1,9 @@
+digraph SevenSegWrite {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,194,16"];
+	Node1 [label=SevenSegWrite, height="0.22", width="1.17", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="50,8", rects="8,0,92,16"];
+	Node2 [label=LedWrite, height="0.22", width="0.78", color=black, fillcolor=white, style=filled, URL="$group__LED.htm#ga87600ad02d7a53dd96ff971ee6e11332", tooltip="Directly turn LEDs on and off. ", pos="157,8", rects="129,0,186,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,128,8 92,8 101,8 110,8 118,8"];
+}

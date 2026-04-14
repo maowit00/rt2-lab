@@ -1,0 +1,9 @@
+digraph SpiPutc {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,174,16"];
+	Node1 [label=SpiPutc, height="0.22", width="0.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="32,8", rects="9,0,56,16"];
+	Node2 [label=SpiOutStatus, height="0.22", width="1.00", color=black, fillcolor=white, style=filled, URL="$group__SPI.htm#ga01bef032e18d82a96875eacb98f477f6", tooltip="Check, if the send data register is free. Call first, if you do not want SpiPutc() to block...", pos="129,8", rects="93,0,166,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,92,8 56,8 64,8 73,8 82,8"];
+}

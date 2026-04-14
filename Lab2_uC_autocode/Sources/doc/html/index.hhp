@@ -1,0 +1,75 @@
+[OPTIONS]
+Compiled file=..\HAL.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.htm
+Index file=index.hhk
+Language=0x409 English (United States)
+Create CHI file=YES
+Title=HAL_Dragon12
+
+[WINDOWS]
+main="HAL_Dragon12","index.hhc","index.hhk","index.htm","index.htm",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+group__HAL.htm
+group__LED.htm
+group__DIP.htm
+group__SevenSeg.htm
+group__RTI.htm
+group__WDG.htm
+group__LCD.htm
+group__PWM.htm
+group__ADC.htm
+group__Timer.htm
+group__SCI.htm
+group__CAN.htm
+group__SPI.htm
+group__I2C.htm
+group__FlexRay.htm
+group__Memory.htm
+structCANMESSAGE.htm
+structCANMESSAGE-members.htm
+index.htm
+modules.htm
+annotated.htm
+classes.htm
+functions.htm
+functions_vars.htm
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+doc.png
+folderopen.png
+folderclosed.png
+arrowdown.png
+arrowright.png
+splitbar.png
+group__HAL_gabb2a1a1942ab5eeddc96882208e85d7d_cgraph.jpg
+group__SevenSeg_ga2945381d1abbc2cb3fce2c7915bf6c41_cgraph.jpg
+group__SCI_ga59c26310eb8bd7a50a24920a8ebd0820_cgraph.jpg
+group__SCI_gaf0a9f05a94dd2058c77ad11fd79669bc_cgraph.jpg
+group__SCI_ga51aefeb461c67b0fa87bc6eeec0e639c_cgraph.jpg
+group__SCI_ga434a848821c3e594463d82480d6a276d_cgraph.jpg
+group__CAN_ga673965c4217a944a6fd908f79bf671a6_cgraph.jpg
+group__CAN_ga4f761260fc42ce18ab46fb4b8bc4c77c_cgraph.jpg
+group__CAN_gab5d3a153fef3364f280635f49992e977_cgraph.jpg
+group__SPI_gab017309eab997fa69932b044191c241f_cgraph.jpg
+group__SPI_ga76edab8e82ddd2a03fc56b0132b1c864_cgraph.jpg
+group__SPI_ga50b9d1c38dfc356a554934ce34ade852_cgraph.jpg
+group__SPI_gace4ec6341a936e5ef613eb85b8686ac6_cgraph.jpg
+group__Memory_gaa85b7c7f8a2718b0f5bfef1a24621170_cgraph.jpg
+group__Memory_gabea7c102d5544df16d49e94e6a106ba0_cgraph.jpg
+structCANMESSAGE__coll__graph.jpg

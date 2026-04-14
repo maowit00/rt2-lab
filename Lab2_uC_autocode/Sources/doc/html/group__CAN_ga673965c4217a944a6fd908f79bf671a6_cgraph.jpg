@@ -1,0 +1,13 @@
+digraph CanInit {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,204,84"];
+	Node1 [label=CanInit, height="0.22", width="0.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="31,42", rects="8,34,54,50"];
+	Node2 [label=SciInitEx, height="0.22", width="0.75", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#ga9281a746eb3ad36593872b0f305a2478", tooltip="Initialize serial interface. Must be called before using any of the other Sci...() functions...", pos="143,76", rects="116,68,170,84"];
+	Node3 [label=SciRegisterCallback, height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#gae5eb540c0aec442b05eafa7cf70cab01", tooltip="Register a callback function, which will be called on character reception or transmission. ", pos="143,42", rects="90,34,196,50"];
+	Node4 [label=SciEnableInterrupts, height="0.22", width="1.47", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#gae96bd296cc443cc44ef7c4fffdf803e4", tooltip="Enable serial interface receive or transmit interrupts/callback functions. ", pos="143,8", rects="90,0,196,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,116,73 54,50 71,56 73,62 90,68 95,70 101,71 107,72"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,90,42 54,42 61,42 70,42 79,42"];
+	Node1 -> Node4 [color=midnightblue, style=solid, pos="e,90,16 54,34 67,29 71,24 80,20"];
+}

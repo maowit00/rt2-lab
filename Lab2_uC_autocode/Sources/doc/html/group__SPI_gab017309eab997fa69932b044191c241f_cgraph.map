@@ -1,0 +1,9 @@
+digraph SpiGetc {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,164,16"];
+	Node1 [label=SpiGetc, height="0.22", width="0.64", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="32,8", rects="9,0,56,16"];
+	Node2 [label=SpiInStatus, height="0.22", width="0.89", color=black, fillcolor=white, style=filled, URL="$group__SPI.htm#gaf9bf88d77870d8fae43a7320c313e7ec", tooltip="Check, if a byte has been received, i.e. if the data register has data. Call first, if you do not want SpiGetc() to block. ", pos="124,8", rects="92,0,156,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,92,8 56,8 64,8 73,8 82,8"];
+}

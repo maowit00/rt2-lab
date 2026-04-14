@@ -1,0 +1,9 @@
+digraph HalInit {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,154,16"];
+	Node1 [label=HalInit, height="0.22", width="0.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="30,8", rects="8,0,52,16"];
+	Node2 [label=HalPllInit, height="0.22", width="0.78", color=black, fillcolor=white, style=filled, URL="$group__HAL.htm#gae30e7242d4d8922c3c3bc739d752525c", tooltip="Initialize the PLL. Normally called automatically by HalInit(). ", pos="117,8", rects="89,0,146,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,88,8 52,8 60,8 69,8 78,8"];
+}

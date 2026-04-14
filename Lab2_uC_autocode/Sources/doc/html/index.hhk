@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__WDG.htm"><param name="Name" value="/COP Watchdog/Computer Operating Properly"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm"><param name="Name" value="ADC (Port AD), not yet supported on EVB9S12XF512E"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm"><param name="Name" value="ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#gade01e17c0fb4adecf643b4517c2d2031"><param name="Name" value="AdcEnableInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#ga8e8134818f3aad1305e4022f72dbfa72"><param name="Name" value="AdcEoc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#gaeff6fa5e713bae4c309c4afe831de2d9"><param name="Name" value="AdcGet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#ga5ac508fc2087ee41c1458b98f0f4e475"><param name="Name" value="AdcInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#gad9ff8c8d23de35a492db33fabbc71ba8"><param name="Name" value="AdcRegisterCallback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#ga994c696b784ae3da72c54a3757789618"><param name="Name" value="AdcStart"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#gade01e17c0fb4adecf643b4517c2d2031"><param name="Name" value="AdcEnableInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#ga8e8134818f3aad1305e4022f72dbfa72"><param name="Name" value="AdcEoc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#gaeff6fa5e713bae4c309c4afe831de2d9"><param name="Name" value="AdcGet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#ga5ac508fc2087ee41c1458b98f0f4e475"><param name="Name" value="AdcInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#gad9ff8c8d23de35a492db33fabbc71ba8"><param name="Name" value="AdcRegisterCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__ADC.htm#ga994c696b784ae3da72c54a3757789618"><param name="Name" value="AdcStart"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm"><param name="Name" value="CAN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga7dff8fe702ae7e2c95a18eb41b234234"><param name="Name" value="CanEnableRxInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga1f71decf7532c3522a45c585f656a1eb"><param name="Name" value="CanEnableTxInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga673965c4217a944a6fd908f79bf671a6"><param name="Name" value="CanInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga5ca527897a757ebc5de20a1e30af1f0d"><param name="Name" value="CanIsReceiveBufferFull"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gad9dd564f65c83f2905a54326988dbb23"><param name="Name" value="CanIsTransmitBufferFree"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga4f761260fc42ce18ab46fb4b8bc4c77c"><param name="Name" value="CanReadMessage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga2b31cac7fe1300acb3375cd564344b2e"><param name="Name" value="CanRegisterRxCallback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga2441f1e1848abb5786002907281d981e"><param name="Name" value="CanRegisterTxCallback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gab5d3a153fef3364f280635f49992e977"><param name="Name" value="CanSendMessage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gaa120960958342e67d0dc00a4cebf57d7"><param name="Name" value="CanSetAcceptanceFilter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gac757e5ff39a73e8185b67645521a3429"><param name="Name" value="CANviaSCIx"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga7dff8fe702ae7e2c95a18eb41b234234"><param name="Name" value="CanEnableRxInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga1f71decf7532c3522a45c585f656a1eb"><param name="Name" value="CanEnableTxInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm#aeac35726fb6016ec23a8342bacae2b64"><param name="Name" value="CanId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga673965c4217a944a6fd908f79bf671a6"><param name="Name" value="CanInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga5ca527897a757ebc5de20a1e30af1f0d"><param name="Name" value="CanIsReceiveBufferFull"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gad9dd564f65c83f2905a54326988dbb23"><param name="Name" value="CanIsTransmitBufferFree"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm"><param name="Name" value="CANMESSAGE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm#aeac35726fb6016ec23a8342bacae2b64"><param name="Name" value="CanId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm#ad255f40d04e53637eef4193ac3081006"><param name="Name" value="Data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm#ac5bbe53fd3ad7323c9fbc3d4b827eeaa"><param name="Name" value="DataLength"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga4f761260fc42ce18ab46fb4b8bc4c77c"><param name="Name" value="CanReadMessage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga2b31cac7fe1300acb3375cd564344b2e"><param name="Name" value="CanRegisterRxCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#ga2441f1e1848abb5786002907281d981e"><param name="Name" value="CanRegisterTxCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gab5d3a153fef3364f280635f49992e977"><param name="Name" value="CanSendMessage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gaa120960958342e67d0dc00a4cebf57d7"><param name="Name" value="CanSetAcceptanceFilter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__CAN.htm#gac757e5ff39a73e8185b67645521a3429"><param name="Name" value="CANviaSCIx"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm#ad255f40d04e53637eef4193ac3081006"><param name="Name" value="Data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structCANMESSAGE.htm#ac5bbe53fd3ad7323c9fbc3d4b827eeaa"><param name="Name" value="DataLength"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm"><param name="Name" value="DIP switch and push buttons (Port H), not available on EVB9S12XF512E"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm"><param name="Name" value="DIP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#ga09b1e3de18c81038e4af91238295bb26"><param name="Name" value="SwitchAckInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#ga434b62823bfc12b866a13a45cd246131"><param name="Name" value="SwitchEnableInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#gab8328915ba534cbb7d901d9594902de9"><param name="Name" value="SwitchGet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#ga0f674ea092ae368ce3d994d179c91a24"><param name="Name" value="SwitchInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#gae403e9ef8c42ed90e87d13df3fa1939e"><param name="Name" value="SwitchRegisterCallback"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__FlexRay.htm"><param name="Name" value="FlexRay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__FlexRay.htm#ga015e8472882816d78249fce88c4145ef"><param name="Name" value="FrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__FlexRay.htm#ga015e8472882816d78249fce88c4145ef"><param name="Name" value="FrInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm"><param name="Name" value="HAL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gacc9962f496d0f0359ead4ed130cfa79d"><param name="Name" value="HalGetBusclk"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gaa736f628cc0e02d095cfe4b9ff0c1d8f"><param name="Name" value="HalGetOscclk"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gae45ffa21ce3438c0295e3610e54e4f54"><param name="Name" value="HalGetVersion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gabb2a1a1942ab5eeddc96882208e85d7d"><param name="Name" value="HalInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gae30e7242d4d8922c3c3bc739d752525c"><param name="Name" value="HalPllInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gacc9962f496d0f0359ead4ed130cfa79d"><param name="Name" value="HalGetBusclk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gaa736f628cc0e02d095cfe4b9ff0c1d8f"><param name="Name" value="HalGetOscclk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gae45ffa21ce3438c0295e3610e54e4f54"><param name="Name" value="HalGetVersion"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gabb2a1a1942ab5eeddc96882208e85d7d"><param name="Name" value="HalInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__HAL.htm#gae30e7242d4d8922c3c3bc739d752525c"><param name="Name" value="HalPllInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm"><param name="Name" value="I2C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm#ga112ea41e63e0f22d00d2a344f2e52c52"><param name="Name" value="I2cInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm#gab4843e765ebbf60133a7d62afc497443"><param name="Name" value="I2cMasterRead"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm#ga7b00206bec6350d6976158be1f3fb588"><param name="Name" value="I2cMasterSend"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm#ga112ea41e63e0f22d00d2a344f2e52c52"><param name="Name" value="I2cInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm#gab4843e765ebbf60133a7d62afc497443"><param name="Name" value="I2cMasterRead"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__I2C.htm#ga7b00206bec6350d6976158be1f3fb588"><param name="Name" value="I2cMasterSend"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LCD.htm"><param name="Name" value="LCD Display (Port K), not available on EVB9S12XF512E"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LCD.htm"><param name="Name" value="LCD"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LCD.htm#gaaadb95075037e71b42fc582e5bd33134"><param name="Name" value="LcdInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LCD.htm#ga067e46348448d1e980a60d3bb37d5d01"><param name="Name" value="LcdWriteLine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LCD.htm#gaaadb95075037e71b42fc582e5bd33134"><param name="Name" value="LcdInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LCD.htm#ga067e46348448d1e980a60d3bb37d5d01"><param name="Name" value="LcdWriteLine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm"><param name="Name" value="LED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga7c2f515269e08d382a56439752f5327f"><param name="Name" value="LedClear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#gaf3c397b509eb6db7ef01e8258bb5e6d3"><param name="Name" value="LedGet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga1d5b4eaf7f01ae9557ba620158ebdfd9"><param name="Name" value="LedInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga04065b71578d1a797b0462a0b46d9c83"><param name="Name" value="LedSet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga2027db23c0ee23d255ca193027cc2482"><param name="Name" value="LedToggle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga87600ad02d7a53dd96ff971ee6e11332"><param name="Name" value="LedWrite"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga7c2f515269e08d382a56439752f5327f"><param name="Name" value="LedClear"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#gaf3c397b509eb6db7ef01e8258bb5e6d3"><param name="Name" value="LedGet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga1d5b4eaf7f01ae9557ba620158ebdfd9"><param name="Name" value="LedInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm"><param name="Name" value="LEDs (Dragon12: Port B and J.1, EVB9S12XF512E: D29-D22)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga04065b71578d1a797b0462a0b46d9c83"><param name="Name" value="LedSet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga2027db23c0ee23d255ca193027cc2482"><param name="Name" value="LedToggle"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__LED.htm#ga87600ad02d7a53dd96ff971ee6e11332"><param name="Name" value="LedWrite"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#ga9b64d3e4b8103640b360ebdaedf82f96"><param name="Name" value="MemFlashRomInitProgramming"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#gaa85b7c7f8a2718b0f5bfef1a24621170"><param name="Name" value="MemFlashRomProgram"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#gabea7c102d5544df16d49e94e6a106ba0"><param name="Name" value="MemFlashRomSectorErase"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm"><param name="Name" value="Memory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#ga9b64d3e4b8103640b360ebdaedf82f96"><param name="Name" value="MemFlashRomInitProgramming"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#gaa85b7c7f8a2718b0f5bfef1a24621170"><param name="Name" value="MemFlashRomProgram"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#gabea7c102d5544df16d49e94e6a106ba0"><param name="Name" value="MemFlashRomSectorErase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#gadf77f387ae73aa4437a22634b6ecd31a"><param name="Name" value="MemSetPage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Memory.htm#gadf77f387ae73aa4437a22634b6ecd31a"><param name="Name" value="MemSetPage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm"><param name="Name" value="PWM (Port P, shared with Seven Segment Display), not yet supported on EVB9S12XF512E"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm"><param name="Name" value="PWM"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga4097ba988cb2c7018ad5738ec9eaebc6"><param name="Name" value="PwmInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga441f81ba7381b4a66531462cc16adf29"><param name="Name" value="PwmSetDuty"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga1c64131b046051f9f91e31e8f3df6337"><param name="Name" value="PwmSetPeriod"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#gababad046f203365f91f749db92938c70"><param name="Name" value="PwmSetPolarity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga8aa23f77b3d40c477a85ec4f742d0131"><param name="Name" value="PwmStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga1eb76b18951b4a0fb55f91a2799db596"><param name="Name" value="PwmStop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga4097ba988cb2c7018ad5738ec9eaebc6"><param name="Name" value="PwmInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga441f81ba7381b4a66531462cc16adf29"><param name="Name" value="PwmSetDuty"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga1c64131b046051f9f91e31e8f3df6337"><param name="Name" value="PwmSetPeriod"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#gababad046f203365f91f749db92938c70"><param name="Name" value="PwmSetPolarity"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga8aa23f77b3d40c477a85ec4f742d0131"><param name="Name" value="PwmStart"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__PWM.htm#ga1eb76b18951b4a0fb55f91a2799db596"><param name="Name" value="PwmStop"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm"><param name="Name" value="Real Time Interrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm"><param name="Name" value="RTI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga6a09e258b950da6e965ff6ae38d52228"><param name="Name" value="RtiAckInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga1bf594d3a04fa8eef893ae60b1031cd4"><param name="Name" value="RtiEnableInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga47514f8d4e14244c55d881a82b7fd5eb"><param name="Name" value="RtiInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga08cec3b12445a5c8e6d6a6fb4645d16f"><param name="Name" value="RtiRegisterCallback"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga6a09e258b950da6e965ff6ae38d52228"><param name="Name" value="RtiAckInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga1bf594d3a04fa8eef893ae60b1031cd4"><param name="Name" value="RtiEnableInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga47514f8d4e14244c55d881a82b7fd5eb"><param name="Name" value="RtiInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__RTI.htm#ga08cec3b12445a5c8e6d6a6fb4645d16f"><param name="Name" value="RtiRegisterCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm"><param name="Name" value="SCI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gae96bd296cc443cc44ef7c4fffdf803e4"><param name="Name" value="SciEnableInterrupts"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga59c26310eb8bd7a50a24920a8ebd0820"><param name="Name" value="SciGetc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gaf0a9f05a94dd2058c77ad11fd79669bc"><param name="Name" value="SciInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga9281a746eb3ad36593872b0f305a2478"><param name="Name" value="SciInitEx"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gacb386815d859e76c9b4867e4141606ac"><param name="Name" value="SciInStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga610f1090b8d4edf56e6d4c847ccee259"><param name="Name" value="SciOutStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga51aefeb461c67b0fa87bc6eeec0e639c"><param name="Name" value="SciPutc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga434a848821c3e594463d82480d6a276d"><param name="Name" value="SciPuts"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gae5eb540c0aec442b05eafa7cf70cab01"><param name="Name" value="SciRegisterCallback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga89ac81e8aed357bfbba107627f2d44e8"><param name="Name" value="SciStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gac00bfb46347d26fdc58568fe1ab5fa5b"><param name="Name" value="STDIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga8875037d0772a4fc34516f1e03d7e238"><param name="Name" value="STDOUT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gae96bd296cc443cc44ef7c4fffdf803e4"><param name="Name" value="SciEnableInterrupts"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga59c26310eb8bd7a50a24920a8ebd0820"><param name="Name" value="SciGetc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gaf0a9f05a94dd2058c77ad11fd79669bc"><param name="Name" value="SciInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga9281a746eb3ad36593872b0f305a2478"><param name="Name" value="SciInitEx"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gacb386815d859e76c9b4867e4141606ac"><param name="Name" value="SciInStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga610f1090b8d4edf56e6d4c847ccee259"><param name="Name" value="SciOutStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga51aefeb461c67b0fa87bc6eeec0e639c"><param name="Name" value="SciPutc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga434a848821c3e594463d82480d6a276d"><param name="Name" value="SciPuts"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gae5eb540c0aec442b05eafa7cf70cab01"><param name="Name" value="SciRegisterCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga89ac81e8aed357bfbba107627f2d44e8"><param name="Name" value="SciStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm"><param name="Name" value="Serial Interface (SCI, UART)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm"><param name="Name" value="Seven Segment Display (Port B and P.3 ... P.0), not available on EVB9S12XF512E"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm"><param name="Name" value="SevenSeg"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga24d52034fbf4ee0f31557fc8dd807c4b"><param name="Name" value="SEVENSEG_HUNDREDS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#gaa4fe7ef1f47f17873a1a8fa1a04ce55b"><param name="Name" value="SEVENSEG_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga9862f3b5fca92cae59b39af59731a7a2"><param name="Name" value="SEVENSEG_ONES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga7b24ecca52c82751b7e86d112fe71864"><param name="Name" value="SEVENSEG_TENS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#gac7e25302b3944f92a4c3ebc71c44f037"><param name="Name" value="SEVENSEG_THOUSANDS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#gaf1a22d6be88142eb6ebb4b49a2d1175b"><param name="Name" value="SevenSegInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga2945381d1abbc2cb3fce2c7915bf6c41"><param name="Name" value="SevenSegWrite"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga24d52034fbf4ee0f31557fc8dd807c4b"><param name="Name" value="SEVENSEG_HUNDREDS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#gaa4fe7ef1f47f17873a1a8fa1a04ce55b"><param name="Name" value="SEVENSEG_OFF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga9862f3b5fca92cae59b39af59731a7a2"><param name="Name" value="SEVENSEG_ONES"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga7b24ecca52c82751b7e86d112fe71864"><param name="Name" value="SEVENSEG_TENS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#gac7e25302b3944f92a4c3ebc71c44f037"><param name="Name" value="SEVENSEG_THOUSANDS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#gaf1a22d6be88142eb6ebb4b49a2d1175b"><param name="Name" value="SevenSegInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SevenSeg.htm#ga2945381d1abbc2cb3fce2c7915bf6c41"><param name="Name" value="SevenSegWrite"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm"><param name="Name" value="SPI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gacf3f447d41ef6db1672d77e684da7145"><param name="Name" value="SpiEnableInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gab017309eab997fa69932b044191c241f"><param name="Name" value="SpiGetc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga76edab8e82ddd2a03fc56b0132b1c864"><param name="Name" value="SpiGetData"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga37d489c39482e48b73ffd12d076491d5"><param name="Name" value="SpiInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gaf9bf88d77870d8fae43a7320c313e7ec"><param name="Name" value="SpiInStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga01bef032e18d82a96875eacb98f477f6"><param name="Name" value="SpiOutStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga50b9d1c38dfc356a554934ce34ade852"><param name="Name" value="SpiPutc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gace4ec6341a936e5ef613eb85b8686ac6"><param name="Name" value="SpiPutData"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga7234ed236bc31379f24c605389670570"><param name="Name" value="SpiRegisterCallback"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gacf3f447d41ef6db1672d77e684da7145"><param name="Name" value="SpiEnableInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gab017309eab997fa69932b044191c241f"><param name="Name" value="SpiGetc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga76edab8e82ddd2a03fc56b0132b1c864"><param name="Name" value="SpiGetData"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga37d489c39482e48b73ffd12d076491d5"><param name="Name" value="SpiInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gaf9bf88d77870d8fae43a7320c313e7ec"><param name="Name" value="SpiInStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga01bef032e18d82a96875eacb98f477f6"><param name="Name" value="SpiOutStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga50b9d1c38dfc356a554934ce34ade852"><param name="Name" value="SpiPutc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#gace4ec6341a936e5ef613eb85b8686ac6"><param name="Name" value="SpiPutData"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SPI.htm#ga7234ed236bc31379f24c605389670570"><param name="Name" value="SpiRegisterCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#gac00bfb46347d26fdc58568fe1ab5fa5b"><param name="Name" value="STDIN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__SCI.htm#ga8875037d0772a4fc34516f1e03d7e238"><param name="Name" value="STDOUT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#ga09b1e3de18c81038e4af91238295bb26"><param name="Name" value="SwitchAckInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#ga434b62823bfc12b866a13a45cd246131"><param name="Name" value="SwitchEnableInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#gab8328915ba534cbb7d901d9594902de9"><param name="Name" value="SwitchGet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#ga0f674ea092ae368ce3d994d179c91a24"><param name="Name" value="SwitchInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__DIP.htm#gae403e9ef8c42ed90e87d13df3fa1939e"><param name="Name" value="SwitchRegisterCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm"><param name="Name" value="Timer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga1c37429d7974cd690a066cc02a7c9a40"><param name="Name" value="TimerChannelAckInterrupt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga1a374ababa8dfdc420e5e11c2e07f544"><param name="Name" value="TimerChannelInterruptEnable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#gaf5ce17b7aa2bec456016e2ee5287de75"><param name="Name" value="TimerChannelMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga13fadc71a8cae678f0e4a868e2fb08ef"><param name="Name" value="TimerGet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga631939bc84435003d5ad7b2aeff4f9ec"><param name="Name" value="TimerGetLastEvent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#gae5747c2be679c67954b98ab0e489a0d8"><param name="Name" value="TimerInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga5af514f3f7a521151f0da44393903724"><param name="Name" value="TimerRegisterCallback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga24275b4cc9ea84dd10703212bf8a91dd"><param name="Name" value="TimerSetNextEvent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga1c37429d7974cd690a066cc02a7c9a40"><param name="Name" value="TimerChannelAckInterrupt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga1a374ababa8dfdc420e5e11c2e07f544"><param name="Name" value="TimerChannelInterruptEnable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#gaf5ce17b7aa2bec456016e2ee5287de75"><param name="Name" value="TimerChannelMode"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga13fadc71a8cae678f0e4a868e2fb08ef"><param name="Name" value="TimerGet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga631939bc84435003d5ad7b2aeff4f9ec"><param name="Name" value="TimerGetLastEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#gae5747c2be679c67954b98ab0e489a0d8"><param name="Name" value="TimerInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga5af514f3f7a521151f0da44393903724"><param name="Name" value="TimerRegisterCallback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__Timer.htm#ga24275b4cc9ea84dd10703212bf8a91dd"><param name="Name" value="TimerSetNextEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__WDG.htm"><param name="Name" value="WDG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__WDG.htm#gacd72df293c0b123fe3f11a2fdf1d2cdd"><param name="Name" value="WdgInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__WDG.htm#ga30a5abfa1400fa921c39dd95ab88b304"><param name="Name" value="WdgRetrigger"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__WDG.htm#gacd72df293c0b123fe3f11a2fdf1d2cdd"><param name="Name" value="WdgInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__WDG.htm#ga30a5abfa1400fa921c39dd95ab88b304"><param name="Name" value="WdgRetrigger"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,12 @@
+digraph SciPuts {
+	graph [rankdir=LR];
+	node [label="\N", fontname=Helvetica, fontsize=10, shape=record];
+	edge [fontname=Helvetica, fontsize=10, labelfontname=Helvetica, labelfontsize=10];
+	graph [bb="0,0,250,16"];
+	Node1 [label=SciPuts, height="0.22", width="0.61", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="30,8", rects="8,0,52,16"];
+	Node2 [label=SciPutc, height="0.22", width="0.61", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#ga51aefeb461c67b0fa87bc6eeec0e639c", tooltip="Send a character to the serial interface (blocking, i.e. waits, until the transmit buffer is empty) ...", pos="111,8", rects="89,0,134,16"];
+	Node3 [label=SciOutStatus, height="0.22", width="0.97", color=black, fillcolor=white, style=filled, URL="$group__SCI.htm#ga610f1090b8d4edf56e6d4c847ccee259", tooltip="Check, if a character can be send, i.e. if the transmit buffer is empty. Call first, if you do not want SciPutc() or SciPuts() t\
+o block. ", pos="206,8", rects="171,0,242,16"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,88,8 52,8 60,8 69,8 78,8"];
+	Node2 -> Node3 [color=midnightblue, style=solid, pos="e,170,8 134,8 142,8 151,8 160,8"];
+}
