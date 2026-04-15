@@ -1,0 +1,21 @@
+
+
+#### Artifacts
+slprj/
+codegen/
+sccprj/
+*.slxc
+*.db
+
+
+#### Binaries
+*.mex*
+*.p
+
+#### Autosaves and temp files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+
