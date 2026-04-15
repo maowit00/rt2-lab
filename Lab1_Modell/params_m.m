@@ -38,8 +38,8 @@ k_cond_pos = -400/(2*pi);
 
 % Traegheitsmomente
 Jk = .7e-6;          % Traegheitsmoment [Nm/s^2] mit Schalter "links": klein
-Jg = .7e-6;          % Traegheitsmoment [Nm/s^2] mit Schalter "rechts": gross % zu ändern in Vorbereitung
-J  = Jk;             % Auswahl je nach J Schalter auf dem Motorboard
+Jg = 2.5e-6;          % Traegheitsmoment [Nm/s^2] mit Schalter "rechts": gross % zu ändern in Vorbereitung
+J  = Jg;             % Auswahl je nach J Schalter auf dem Motorboard
 
 % Modellierung der Reibung 
 friction_gain = 5.55028e-07;      % Beiwert fuer fluessige Reibung (Gleitreibung) in [Nmsec/rad]
