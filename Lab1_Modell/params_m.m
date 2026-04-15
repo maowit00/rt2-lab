@@ -51,8 +51,8 @@ omega_AW = 0;          % Anfangswert fuer die Winkelgeschwindigkeit
 
 % Reglerauslegung
 % PI - Drehzahlregler
-k_Rn = 0.1;          % P-Verstaerkung PI-Drehzahlregler 
-Tn_n = 0.04;   % [sec] Nachstellzeit PI-Drehzahlregler (Pol/Nullstellenkompensation)
+k_Rn = 1.15;          % P-Verstaerkung PI-Drehzahlregler 
+Tn_n = 0.039769729987425;   % [sec] Nachstellzeit PI-Drehzahlregler (Pol/Nullstellenkompensation)
 % Positionsregler
 k_Rpos = 1;        % P-Verstaerkung P-Positionsregler
 n_max = 7800;      % U/min fuer Stellgroessenbegrenzung des Positionsreglers
