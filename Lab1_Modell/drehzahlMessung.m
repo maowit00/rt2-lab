@@ -9,9 +9,9 @@
 % Tragen Sie hier Ihre Messwerte fuer nTTL und nADC als Zeilenvektoren in aufsteigender Reihenfolge ein
 % Einheit [U/min]
 
-nTTL = [  ];    % <<<<<< hier Messwerte eintragen
+nTTL = [ -6000, -3314, 3333, 5825 ];    % <<<<<< hier Messwerte eintragen
 
-nADC = [  ];    % <<<<<< hier Messwerte eintragen
+nADC = [  -5335, -2978, 3000, 5289 ];    % <<<<<< hier Messwerte eintragen
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Ab hier keine Veränderungen notwendig
