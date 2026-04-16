@@ -89,10 +89,11 @@ void myADC1Callback(void);
 void positionControl(void )
 {
 //ToDo: Einbau des Lagereglers/Positionsreglers
-   const float kp_position = 0.1;                 // Position control: P gain ANPASSEN!!
+   const float kp_position = 0.356;                 // Position control: P gain ANPASSEN!!
 
-   e_position = 1;
-   set_rpm = 1;
+   e_position = set_position - pos_tick;
+
+   set_rpm = kp_position * e_position;
 //#############################################################################################             
 }
 
@@ -132,7 +133,7 @@ void rpmControl(void)
     const float kp_rpm = 1.15; // ToDo       // rpm control: P gain
     const float Tn_rpm = 0.03977; // ToDo       // rpm control: reset time [usec]
     
-    const float KI = kp_rpm * RtiPeriodNS * 1e-9 / Tn_rpm;
+    const float KI = kp_rpm * RtiPeriodNS * 1e-9 / Tn_rpm;   //Integrationskoeff
     
     static float last_u_i = 0;
     
