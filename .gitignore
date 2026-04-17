@@ -19,3 +19,8 @@ sccprj/
 *.slx.r*
 *.mdl.r*
 
+
+### CodeWarior
+*.o
+bin/
+
