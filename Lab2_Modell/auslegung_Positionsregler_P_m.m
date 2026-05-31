@@ -61,7 +61,7 @@ G_mess_pos    = k_cond_pos;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Auslegung des P-Positionsreglers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-k_Rpos = 1.0;                 % ToDo hier den passenden Wert einstellen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+k_Rpos = 0.3;                 % ToDo hier den passenden Wert einstellen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % offener Kreis

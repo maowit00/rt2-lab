@@ -59,7 +59,7 @@ G_mess_n    = k_cond_n;
 % Auslegung des PI-Drehzahlreglers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Tn_n = langsamste_ZK;       % Kompensation der langsamsten Streckenzeitkonstanten
-k_Rn = 0.1;                 % TODO: Hier die passende Reglerverstärkung einstellen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+k_Rn = 1.2;                 % TODO: Hier die passende Reglerverstärkung einstellen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Tn_n = Tn_n;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
