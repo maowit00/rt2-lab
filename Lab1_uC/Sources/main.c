@@ -11,7 +11,7 @@ uint32 RtiPeriodNS;
 
 static bool   rti_adc_started    = 0;           // has an AD-Conversion been started by myRTICallback()
 
-uint16 startTime = 0;                           // time measurement (resolution is TIMER_RESOLUTION=0.667µsec/bit)
+uint16 startTime = 0;                           // time measurement (resolution is TIMER_RESOLUTION=0.667ï¿½sec/bit)
 float  measuredTimeInUsec = 0;                  // measured time in usec
 
 static enum c_state control_state = rpm;        // state machine for control toggling
@@ -89,7 +89,7 @@ void myADC1Callback(void);
 void positionControl(void )
 {
 //ToDo: Einbau des Lagereglers/Positionsreglers
-   const float kp_position = 0.356;                 // Position control: P gain ANPASSEN!!
+   const float kp_position = 0.3;                 // Position control: P gain ANPASSEN!!
 
    e_position = set_position - pos_tick;
 
@@ -130,33 +130,35 @@ void rpmControl(void)
 
 //ToDo: Reglerparameter des Drehzahlreglers sinnvoll vorgeben
 //ToDo: und PI-Drehzahlregler mit Anti-Winup implementieren
-    const float kp_rpm = 1.15; // ToDo       // rpm control: P gain
-    const float Tn_rpm = 0.03977; // ToDo       // rpm control: reset time [usec]
-    
-    const float KI = kp_rpm * RtiPeriodNS * 1e-9 / Tn_rpm;   //Integrationskoeff
-    
-    static float last_u_i = 0;
-    
-    float u_p, u_i;
-    
-    
+    const float kp_rpm = 1.2; // ToDo       // rpm control: P gain
+    const float Tn_rpm = 0.0511; // ToDo       // rpm control: reset time [usec]
+
+    const float Ki = kp_rpm * RtiPeriodNS * 1e-9 / Tn_rpm;   //Integrationskoeff
+
+
+    static float u_i = 0;
+
+    float u, u_p;
+
+
     e_rpm = set_rpm - measured_rpm;
-    
-    u_p = kp_rpm * e_rpm;
-    u_i = last_u_i + KI * e_rpm;
-    
-    rpm_control_u = u_p + u_i;
-    
-    if (rpm_control_u > max_rpm_control_output)
+
+    u_p  = kp_rpm * e_rpm;
+    u_i += Ki * e_rpm;
+
+    u = u_p + u_i;
+
+    if (u > max_rpm_control_output)
     {
-      rpm_control_u = max_rpm_control_output; }
-    else if (rpm_control_u < min_rpm_control_output)
-    {
-      rpm_control_u = min_rpm_control_output;
-    }else{
-        last_u_i = u_i;
+        u = u_i = max_rpm_control_output;
     }
-          
+    else if (u < min_rpm_control_output)
+    {
+        u = u_i = min_rpm_control_output;
+    }
+
+    rpm_control_u = u;  // assigned scheduled value
+
 //#############################################################################################
 }
 
@@ -227,7 +229,7 @@ void myPortH74Callback(uint8 mask)
 }
 
 
-// ##### Called periodically by the RTI interrupt (every 768µs)
+// ##### Called periodically by the RTI interrupt (every 768ï¿½s)
 void myRtiCallback (void) 
 {   static uint16 toggleCount = 0;
 
@@ -369,7 +371,7 @@ void myADC1Callback(void)
 //*********************************************************************************************
 
          LedClear(0x20);                                // For debugging: end of control algo
-         measuredTimeInUsec = ((float) (TimerGet()-startTime)) * TIMER_RESOLUTION;  // Run-time since last call of startTime (resolution 0.667µsec)
+         measuredTimeInUsec = ((float) (TimerGet()-startTime)) * TIMER_RESOLUTION;  // Run-time since last call of startTime (resolution 0.667ï¿½sec)
 
          if( control_state == manual ){
               if( display_state == set_val_gen ){       // Automatic stimulus for PWM (manual mode)
