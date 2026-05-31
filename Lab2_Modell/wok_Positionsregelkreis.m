@@ -67,7 +67,7 @@ GOL = G_Rpos * GOL
 figure(1)
 rlocus(GOL);
 grid on
-txt = sprintf('Wurzelortskurve des Positionsregelkreises mit PI-Lageregler Tnpos = 1/%4.1f = %6.3f sec', 1/Tn_pos, Tn_pos);
+txt = sprintf('Wurzelortskurve des Positionsregelkreises\nmit PI-Lageregler Tnpos = 1/%4.1f = %6.3f sec', 1/Tn_pos, Tn_pos);
 title(txt)
 
 fprintf('Verwendete P-Verstaerkung des Positionsreglers: %6.2f\n', k_Rpos);
