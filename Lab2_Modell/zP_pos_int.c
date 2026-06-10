@@ -10,7 +10,7 @@
 */
 
 // *******************************************************************************************
-// Verwenden Sie diese vordefinierten Datentypen für Integergrößen
+// Verwenden Sie diese vordefinierten Datentypen fï¿½r Integergrï¿½ï¿½en
 #define int8    char
 #define int16   short
 #define int32   long
@@ -22,8 +22,8 @@
 // Groessen, die Sie mit einem sinnvollen Wert belegen muessen: 
 // *******************************************************************************************
 // ToDo: Festlegung der Skalierungsfaktoren 
-#define POS_Np    0       // Skalierungsfaktor für Positionsregler
-#define POS_Np1   0       // Skalierungsfaktor für Positionsregler
+#define POS_Np    7       // Skalierungsfaktor fï¿½r Positionsregler
+#define POS_Np1   3       // Skalierungsfaktor fï¿½r Positionsregler
 
 #define S_FUNCTION_NAME zP_pos_int    // Dateiname ohne ".c"
 #define NO_PARAMETERS 2               // 2 Parameter aus Maske: Abtastzeit und k_Rpos des P-Reglers
@@ -47,16 +47,14 @@ void S_FUNCTION_NAME(double e, double *u, int init, SimStruct *S)
         k_Rpos = mxGetPr(ssGetSFcnParam(S, 1))[0];   // Reglerparameter k_Rpos aus Maske
         set_rpm = 0;
         // Skalierte Reglerparameter init
-        // ToDo: Bestimmen von kp_pos_N
-        kp_pos_N = 0;
+        kp_pos_N = k_Rpos * (1 << POS_Np);
     }else{
-        // Sättigung Regelfehler
+        // Sï¿½ttigung Regelfehler
         e_position = (e_position >  56000000) ?  56000000 : e_position;
         e_position = (e_position < -56000000) ? -56000000 : e_position;
 
-        // ToDo: Bestimmen der Stellgröße
-        set_rpm = 0;
+        set_rpm    = (kp_pos_N * e_position) >> POS_Np1;
     }
-    // Stellgrößenbeschränkung durch nachfolgendes Sättigungselement in Simulink
+    // Stellgrï¿½ï¿½enbeschrï¿½nkung durch nachfolgendes Sï¿½ttigungselement in Simulink
     *u = (double) set_rpm;
 }
