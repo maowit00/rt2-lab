@@ -21,8 +21,9 @@ static enum d_state display_state = disp_only;  // state machine for display and
 int32 manual_u;                   // pwm value in manual mode 0..255
                                   
 // rpm control                    
-#define RPM_NN    0               // ToDo: Skalierungsfaktor fuer P-Anteil
-#define RPM_NI    0               // ToDo: Skalierungsfaktor fuer I-Anteil
+#define RPM_NN    7                // ToDo: Skalierungsfaktor fuer P-Anteil
+#define RPM_NI    14               // ToDo: Skalierungsfaktor fuer I-Anteil
+
 int32 set_rpm;                    // set rpm scaled -512..+511  = -7800 ...+7800 U/min
 int16 measured_rpm_adc  = 0;      // speed rpm measured via ADC-reading -512..+511
 int16 measured_rpm_ttl  = 0;      // speed measured via digital position sensor pulse period (scaling see ...rpm_adc)
@@ -38,9 +39,9 @@ const int32 max_rpm_control_output = +127;
 const int32 min_rpm_control_output = -128;
 
 // Position decoding              
-  #define POS_N    0                // ToDo: Skalierungsfaktor für Positionsregler
-  #define POS_N1   0                // ToDo: Skalierungsfaktor für Positionsregler
-  #define POS_N2   0                // ToDo: Skalierungsfaktor für Positionsregler
+  #define POS_N    7                // ToDo: Skalierungsfaktor für Positionsregler
+  #define POS_N1   3                // ToDo: Skalierungsfaktor für Positionsregler
+  #define POS_N2   4                // ToDo: Skalierungsfaktor für Positionsregler
 
 int32 pos_tick;                   // actual position in ticks (400 ticks per rotation)
 bool  direction_forward;          // true for positive speed; false for negative speed
