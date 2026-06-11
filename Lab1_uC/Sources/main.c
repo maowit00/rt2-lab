@@ -4,6 +4,7 @@
 
 #include "main.h"
 
+
 #pragma MESSAGE WARNING DISABLE C12056
 #pragma MESSAGE WARNING DISABLE C5919
 
@@ -89,11 +90,13 @@ void myADC1Callback(void);
 void positionControl(void )
 {
 //ToDo: Einbau des Lagereglers/Positionsreglers
-   const float kp_position = 0.3;                 // Position control: P gain ANPASSEN!!
-
-   e_position = set_position - pos_tick;
-
-   set_rpm = kp_position * e_position;
+   posRegler_U.Soll = set_position; //input
+   posRegler_U.Ist = pos_tick;
+   posRegler_step();              //Control algo
+   set_rpm = posRegler_Y.StellB;  //Output
+   
+   
+   
 //#############################################################################################             
 }
 
@@ -130,34 +133,13 @@ void rpmControl(void)
 
 //ToDo: Reglerparameter des Drehzahlreglers sinnvoll vorgeben
 //ToDo: und PI-Drehzahlregler mit Anti-Winup implementieren
-    const float kp_rpm = 1.2; // ToDo       // rpm control: P gain
-    const float Tn_rpm = 0.0511; // ToDo       // rpm control: reset time [usec]
-
-    const float Ki = kp_rpm * RtiPeriodNS * 1e-9 / Tn_rpm;   //Integrationskoeff
-
-
-    static float u_i = 0;
-
-    float u, u_p;
-
-
-    e_rpm = set_rpm - measured_rpm;
-
-    u_p  = kp_rpm * e_rpm;
-    u_i += Ki * e_rpm;
-
-    u = u_p + u_i;
-
-    if (u > max_rpm_control_output)
-    {
-        u = u_i = max_rpm_control_output;
-    }
-    else if (u < min_rpm_control_output)
-    {
-        u = u_i = min_rpm_control_output;
-    }
-
-    rpm_control_u = u;  // assigned scheduled value
+    
+    nRegler_U.Soll = set_rpm;
+    nRegler_U.Ist = measured_rpm;
+    nRegler_step();
+    rpm_control_u = nRegler_Y.StellB;
+    
+    
 
 //#############################################################################################
 }
@@ -458,6 +440,10 @@ void main(void)
     manual_u      = 128;
     set_rpm       = 0;
     set_position  = 0;
+    
+    //Aufrufe der Regler
+    posRegler_initialize();
+    nRegler_initialize();
 
     for(;;){
        // Control state machine -- display handling for line 0 and in display_state disp_only also for line 1 

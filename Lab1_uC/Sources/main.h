@@ -14,6 +14,10 @@
 #include <limits.h>
 #include "hal.h"
 #include "utils.h"
+//neu
+#include "posRegler.h"
+#include "nRegler.h"
+
 
 #define PWMChannel                 0   // PWM channel for actuator signal
 #define ADC_RPM_CHANNEL            0   // ADC channel for analog RPM signal

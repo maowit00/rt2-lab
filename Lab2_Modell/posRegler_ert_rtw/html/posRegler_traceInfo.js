@@ -1,0 +1,35 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "Regelkreis_ZD"};
+	this.sidHashMap["Regelkreis_ZD"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<S1>"] = {sid: "Regelkreis_ZD:144"};
+	this.sidHashMap["Regelkreis_ZD:144"] = {rtwname: "<S1>"};
+	this.rtwnameHashMap["<S2>"] = {sid: "Regelkreis_ZD:98"};
+	this.sidHashMap["Regelkreis_ZD:98"] = {rtwname: "<S2>"};
+	this.rtwnameHashMap["<S1>/Soll"] = {sid: "Regelkreis_ZD:149"};
+	this.sidHashMap["Regelkreis_ZD:149"] = {rtwname: "<S1>/Soll"};
+	this.rtwnameHashMap["<S1>/Ist"] = {sid: "Regelkreis_ZD:146"};
+	this.sidHashMap["Regelkreis_ZD:146"] = {rtwname: "<S1>/Ist"};
+	this.rtwnameHashMap["<S1>/Saturation2"] = {sid: "Regelkreis_ZD:43"};
+	this.sidHashMap["Regelkreis_ZD:43"] = {rtwname: "<S1>/Saturation2"};
+	this.rtwnameHashMap["<S1>/zP"] = {sid: "Regelkreis_ZD:98"};
+	this.sidHashMap["Regelkreis_ZD:98"] = {rtwname: "<S1>/zP"};
+	this.rtwnameHashMap["<S1>/StellU"] = {sid: "Regelkreis_ZD:147"};
+	this.sidHashMap["Regelkreis_ZD:147"] = {rtwname: "<S1>/StellU"};
+	this.rtwnameHashMap["<S1>/StellB"] = {sid: "Regelkreis_ZD:148"};
+	this.sidHashMap["Regelkreis_ZD:148"] = {rtwname: "<S1>/StellB"};
+	this.rtwnameHashMap["<S2>/sollwert"] = {sid: "Regelkreis_ZD:98:176"};
+	this.sidHashMap["Regelkreis_ZD:98:176"] = {rtwname: "<S2>/sollwert"};
+	this.rtwnameHashMap["<S2>/istwert"] = {sid: "Regelkreis_ZD:98:177"};
+	this.sidHashMap["Regelkreis_ZD:98:177"] = {rtwname: "<S2>/istwert"};
+	this.rtwnameHashMap["<S2>/Differenz"] = {sid: "Regelkreis_ZD:98:178"};
+	this.sidHashMap["Regelkreis_ZD:98:178"] = {rtwname: "<S2>/Differenz"};
+	this.rtwnameHashMap["<S2>/P"] = {sid: "Regelkreis_ZD:98:179"};
+	this.sidHashMap["Regelkreis_ZD:98:179"] = {rtwname: "<S2>/P"};
+	this.rtwnameHashMap["<S2>/stellgroesse"] = {sid: "Regelkreis_ZD:98:180"};
+	this.sidHashMap["Regelkreis_ZD:98:180"] = {rtwname: "<S2>/stellgroesse"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();
