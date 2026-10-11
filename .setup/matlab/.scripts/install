@@ -7,7 +7,10 @@ cd "$(dirname "$(realpath "$0")")/.."
 destinationFolder=/opt/matlab/R2026a
 
 sudo mkdir -p "$destinationFolder"
+
 sudo chown "$USER": "$destinationFolder"
+
+[ -f mpm ] || .scripts/fetch.sh
 
 ./mpm install --inputfile mpm-input-r2026a.txt 
 
