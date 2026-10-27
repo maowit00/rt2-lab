@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Project",
+            "type": "process",
+            "command": "${env:USERPROFILE}/.pico-sdk/ninja/v1.13.2/ninja.exe",
+            "args": ["-C", "${workspaceFolder}/build"],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "Run Project",
+            "type": "process",
+            "command": "${env:USERPROFILE}/.pico-sdk/picotool/2.3.0/picotool/picotool.exe",
+            "args": [
+                "load",
+                "${workspaceFolder}/build/motorboard.elf",
+                "-fx"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile & Run (Alles automatisch)",
+            "dependsOn": ["Compile Project"],
+            "type": "process",
+            "command": "${env:USERPROFILE}/.pico-sdk/picotool/2.3.0/picotool/picotool.exe",
+            "args": [
+                "load",
+                "${workspaceFolder}/build/motorboard.elf",
+                "-fx"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": [],
+            "group": "none"
+        }
+    ]
+}
