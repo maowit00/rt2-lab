@@ -1,0 +1,30 @@
+# ===== MATLAB / Simulink =====
+
+# Simulink cache and generated code
+slprj/
+sccprj/
+codegen/
+*.slxc
+*_grt_rtw/
+*_ert_rtw/
+*_rtw/
+
+# Compiled MEX files
+*.mex*
+*.mexa64
+*.mexmaca64
+*.mexmaci64
+*.mexw64
+
+# Autosaves, backups and temp files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+*.slx.autosave
+*.mdl.autosave
+
+# ===== macOS =====
+.DS_Store
+._*
