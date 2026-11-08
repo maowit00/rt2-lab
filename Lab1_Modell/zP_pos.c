@@ -34,8 +34,7 @@ void S_FUNCTION_NAME(double e, double *u, int init, SimStruct *S)
         Kp = mxGetPr(ssGetSFcnParam(S, 1))[0];
         *u = 0;
     } else {                                    // Berechnung des Ausgangssignals
-        // ToDo: Stellgroesse berechnen
-        *u = 0;
+        *u = Kp * e;
     }
 }
 

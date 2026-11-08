@@ -28,7 +28,9 @@ void S_FUNCTION_NAME(double e, double *u, int init, SimStruct *S)
     double              ui;                     // neuer Wert des I-Anteils
     const double        umax =  127,            // maximaler und
                         umin = -128;            // minimaler Stellgroessenwert
-    //  ToDo: eventuell weitere Groessen definieren
+
+    double u_p;
+    static double u_i;
 
     if (init){                    // Initialisierungen
         //########################################################
@@ -45,11 +47,16 @@ void S_FUNCTION_NAME(double e, double *u, int init, SimStruct *S)
         //########################################################
         // Parameter des digitalen Reglers initialisieren
         //########################################################
-        *u = 0;
-        // ToDo: Parameter und Signale initialisieren
+        *u = u_i = 0;
+        KI = Kp * T / Tn;
     } else {                                      // Berechnung des Ausgangssignals
-    // ToDo: Regler mit Anti-Windup-Stellgroessenbegrenzung implementieren
-        *u = 0;
+        u_p = Kp * e;
+
+        u_i += KI * e;
+
+        if (u_p + u_i < umin)      *u = u_i = umin;
+        else if (u_p + u_i > umax) *u = u_i = umax;
+        else                       *u = u_p + u_i;
     }
 }
 
