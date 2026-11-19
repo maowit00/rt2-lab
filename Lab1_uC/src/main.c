@@ -84,10 +84,14 @@ void positionControl(void)
 {
 //#############################################################################################
 //ToDo: Einbau des Lagereglers/Positionsreglers und Begrenzung der Stellgröße
-   const float kp_position = 1;   // Position control: P gain ANPASSEN!!
+   const float kp_position = 7;   // Position control: P gain ANPASSEN!!
 
-   e_position = 1;
-   set_rpm = 1;
+   e_position = set_position - (float) current_substep_int64;
+   set_rpm = kp_position * e_position;
+
+   // clamping
+    if (set_rpm > MAX_RPM) set_rpm = MAX_RPM;
+    if (set_rpm < MIN_RPM) set_rpm = MIN_RPM;
 
 //#############################################################################################             
 }
@@ -124,11 +128,34 @@ void rpmControl(void)
 {
 //ToDo: Reglerparameter des Drehzahlreglers sinnvoll vorgeben
 //ToDo: und PI-Drehzahlregler mit Anti-Winup implementieren
-    const float kp_rpm = 1; // ToDo       // rpm control: P gain
-    const float Tn_rpm = 1; // ToDo       // rpm control: reset time [usec]
-    
-    e_rpm = 1;
-    rpm_control_u = 1;
+    const float kp_rpm = 0.26f; // ToDo       // rpm control: P gain
+    const float Tn_rpm = 0.03977f; // ToDo       // rpm control: reset time [usec]
+    const float Ts_s = (float) SAMPLINGTIME_US * 1e-6f;   // sampling time in s
+    const float ki_rpm = kp_rpm * Ts_s / Tn_rpm;         // Tn_rpm in s
+
+    static float u_i = 0.0f;
+
+    float u_i_next, u_p;
+
+    e_rpm = set_rpm - rpm_substepencoder;
+
+    u_p = kp_rpm * e_rpm;
+
+    u_i_next = u_i + ki_rpm * e_rpm;
+
+    rpm_control_u = u_p + u_i;
+
+    if (rpm_control_u > MAX_RPM_CONTROL_OUTPUT)
+    {
+        // saturation
+        rpm_control_u = MAX_RPM_CONTROL_OUTPUT;
+    } else if (rpm_control_u < MIN_RPM_CONTROL_OUTPUT)
+    {
+        rpm_control_u = MIN_RPM_CONTROL_OUTPUT;
+    } else {
+        u_i = u_i_next;
+    }
+
 //#############################################################################################
 }
 
