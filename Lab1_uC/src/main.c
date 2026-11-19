@@ -84,10 +84,14 @@ void positionControl(void)
 {
 //#############################################################################################
 //ToDo: Einbau des Lagereglers/Positionsreglers und Begrenzung der Stellgröße
-   const float kp_position = 1;   // Position control: P gain ANPASSEN!!
+   const float kp_position = 7;   // Position control: P gain ANPASSEN!!
 
-   e_position = 1;
-   set_rpm = 1;
+   e_position = set_position - (float) current_substep_int64;
+   set_rpm = kp_position * e_position;
+
+   // clamping
+    if (set_rpm > MAX_RPM) set_rpm = MAX_RPM;
+    if (set_rpm < MIN_RPM) set_rpm = MIN_RPM;
 
 //#############################################################################################             
 }
