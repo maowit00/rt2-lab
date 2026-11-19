@@ -9,9 +9,9 @@
 % Tragen Sie hier Ihre Messwerte fuer nT und nE als Zeilenvektoren in aufsteigender Reihenfolge ein
 % Einheit [U/min]
 
-nT = [  ];    % <<<<<< hier Messwerte eintragen
+nT = [ 6100, 3500, -3100, -5700 ];    % <<<<<< hier Messwerte eintragen
 
-nE = [  ];    % <<<<<< hier Messwerte eintragen
+nE = [ 6750, 3800, -3470, -6400 ];    % <<<<<< hier Messwerte eintragen
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Ab hier keine Veränderungen notwendig
