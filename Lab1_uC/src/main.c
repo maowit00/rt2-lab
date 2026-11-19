@@ -124,11 +124,30 @@ void rpmControl(void)
 {
 //ToDo: Reglerparameter des Drehzahlreglers sinnvoll vorgeben
 //ToDo: und PI-Drehzahlregler mit Anti-Winup implementieren
-    const float kp_rpm = 1; // ToDo       // rpm control: P gain
-    const float Tn_rpm = 1; // ToDo       // rpm control: reset time [usec]
-    
-    e_rpm = 1;
-    rpm_control_u = 1;
+    const float kp_rpm = 0.26f; // ToDo       // rpm control: P gain
+    const float Tn_rpm = 0.03977f; // ToDo       // rpm control: reset time [usec]
+    const float Ts_s = (float) SAMPLINGTIME_US * 1e-6f;   // sampling time in s
+    const float ki_rpm = kp_rpm * Ts_s / Tn_rpm;         // Tn_rpm in s
+
+    static float k_i = 0.0f;
+
+    e_rpm = set_rpm - rpm_substepencoder;
+
+    float k_p = kp_rpm * e_rpm;
+
+    k_i += ki_rpm * e_rpm;
+
+    rpm_control_u = k_p + k_i;
+
+    if (rpm_control_u > MAX_RPM)
+    {
+        // saturation
+        rpm_control_u = k_i = MAX_RPM;
+    } else if (rpm_control_u < MIN_RPM)
+    {
+        rpm_control_u = k_i = MIN_RPM;
+    }
+
 //#############################################################################################
 }
 
