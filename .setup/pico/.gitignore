@@ -1,6 +1,7 @@
 
 *
 
+!macos-setup.sh
 !.gitignore
 !setup.sh
 !raspberrypi-pico-setup.url
