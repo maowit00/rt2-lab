@@ -1,4 +1,3 @@
-PICO_SDK_PATH ?= $(abspath ../.pico-sdk)
 
 default: clean build
 
@@ -6,7 +5,7 @@ default: clean build
 
 build:
 	echo $(PICO_SDK_PATH)
-	PICO_SDK_PATH=$(PICO_SDK_PATH) cmake -S . -B build
+	cmake -S . -B build
 	cmake --build build
 
 flash: build
