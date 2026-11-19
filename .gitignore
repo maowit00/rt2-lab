@@ -28,3 +28,7 @@ codegen/
 # ===== macOS =====
 .DS_Store
 ._*
+
+# ===== PICO SDK SYM LINK =====
+
+.pico-sdk

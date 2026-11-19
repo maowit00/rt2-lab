@@ -1,14 +1,16 @@
+PICO_SDK_PATH ?= $(abspath ../.pico-sdk)
 
 default: clean build
 
-.PHONY: default clean flash
+.PHONY: default build clean flash
 
 build:
-	cmake -S . -B build
+	echo $(PICO_SDK_PATH)
+	PICO_SDK_PATH=$(PICO_SDK_PATH) cmake -S . -B build
 	cmake --build build
 
 flash: build
-	picotool load -x build/motorboard.uf2
+	picotool load -f -x build/motorboard.uf2
 
 clean:
 	rm -rf build
