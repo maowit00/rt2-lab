@@ -4,7 +4,6 @@ default: clean build
 .PHONY: default build clean flash
 
 build:
-	echo $(PICO_SDK_PATH)
 	cmake -S . -B build
 	cmake --build build
 

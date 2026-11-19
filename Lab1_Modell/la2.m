@@ -12,10 +12,10 @@ clc;
 %% Messwerte (Tabelle 4)
 
 PWM   = [220, 180, 75, 35];   % PWM-Wert
-U_EMK = [NaN, NaN, NaN, NaN]; % Klemmenspannung-Motor[V] (Vorzeichen!!)
-n_T   = [NaN, NaN, NaN, NaN]; % <<<<<< LCD-Anzeige nT [U/min] eintragen
-n_E   = [NaN, NaN, NaN, NaN]; % <<<<<< LCD-Anzeige nE [U/min] eintragen
-T_O   = [NaN, NaN, NaN, NaN]; % Periodendauer TTL-Signal am Oszi [us]
+U_EMK = [9.369, 5.4, 4.6, 8.57]; % Klemmenspannung-Motor[V] (Vorzeichen!!)
+n_T   = [6100, 3500, -3100, -5700]; % <<<<<< LCD-Anzeige nT [U/min] eintragen
+n_E   = [6750, 3800, -3470, -6400]; % <<<<<< LCD-Anzeige nE [U/min] eintragen
+T_O   = [88.6, 157, 173, 93]; % Periodendauer TTL-Signal am Oszi [us]
 
 %% Berechnung
 
